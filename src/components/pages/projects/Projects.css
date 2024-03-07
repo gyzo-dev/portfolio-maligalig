@@ -1,0 +1,55 @@
+.projects-frame {
+    background-color: #ffffff;
+    height: 100vh;
+    width: auto;
+    padding: 15vh 1.6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 6rem;
+}
+
+.projects-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.projects-button {
+    width: 100%;
+    height: fit-content;
+    padding: 0 40%;
+}
+
+.projects-button button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    height: 3.5rem;
+    color: #ffffff;
+    background-color: #302579;
+    border: 0;
+}
